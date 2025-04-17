@@ -43,7 +43,7 @@
 
 ## 📨 Contact
 
-Want to collaborate, invest, or learn more? Reach out at [yashpadale108@example.com](mailto:yashpadale108@example.com).
+Want to collaborate, invest, or learn more? Reach out at [yashpadale108@gmail.com](mailto:yashpadale108@gmail.com).
 
 ---
 
