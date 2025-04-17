@@ -5,6 +5,79 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Last Light Labs</title>
   <style>
+    @import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html, body{
+  height: 50%;
+  font-weight: 800;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: white;
+  font-family: Arial;
+}
+
+.container {
+  background: black;
+
+  display: flex;
+/*   border:1px solid red; */
+  height: 100%;
+  width: 100%;
+  align-items: center;
+}
+
+svg {
+    display: block;
+    font: 7.5em 'Montserrat';
+width: 100%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 3.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+  stroke:white ;
+  animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+  stroke: white;
+  animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+  stroke: white;
+  animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+  stroke: white;
+  animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+  stroke: white;
+  animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+  100% {stroke-dashoffset: -35%;}
+}
+
+
+
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -86,16 +159,18 @@
   </style>
 </head>
 <body>
+<div class="container">
+  <svg viewBox="0 0 540 540">
+    <g class="g-ants">
+      <text text-anchor="middle" x="50%" y="50%" class="text-copy">Last Light Labs</text>
+      <text text-anchor="middle" x="50%" y="50%" class="text-copy">Last Light Labs</text>
+      <text text-anchor="middle" x="50%" y="50%" class="text-copy">Last Light Labs</text>
+      <text text-anchor="middle" x="50%" y="50%" class="text-copy">Last Light Labs</text>
+      <text text-anchor="middle" x="50%" y="50%" class="text-copy">Last Light Labs</text>
+    </g>
+  </svg>
+</div>
 
-<header>
-  <div class="header-content">
-    <!-- This is a comment explaining the header section src="Screenshot 2025-04-17 163137.png" alt="Last Light Labs Logo" class="logo"> -->
-    <div class="text-content">
-      <h1 class="glow-title">Last Light Labs</h1>
-      <p>Reimagining computation through light and parallelism</p>
-    </div>
-  </div>
-</header>
 
 
   <section>
@@ -103,7 +178,7 @@
       We are building the next era of computation by replacing traditional transistors with light-based systems . Our goal is to develop ultra-parallel, low-energy, no-heat architectures that outperform silicon-based GPUs in specialized tasks like deep learning and graphics.
     </h2>
 
-    <h2>⚠️ Limitations of Current Computing Systems</h2>
+    <h2> Limitations of Current Computing Systems</h2>
 <ul>
   <li>Excessive heat generation due to densely packed transistors</li>
   <li>High energy consumption and poor efficiency at scale</li>
@@ -112,23 +187,23 @@
 </ul>
 
 
-    <h2>🌟 Why Optical Over Electrical?</h2>
+    <h2>Why Optical Over Electrical?</h2>
 <ul>
-  <li>⚡ <strong>Ultra-Low Power:</strong>  consume significantly less energy than transistors, especially when pulsed.</li>
-  <li>🔥 <strong>Minimal Heat:</strong> Optical systems generate negligible heat, eliminating the need for complex cooling mechanisms.</li>
-  <li>🚀 <strong>High Parallelism:</strong> Light-based units can operate in massive parallel arrays, outperforming traditional architectures in scale.</li>
-  <li>🌐 <strong>Faster Propagation:</strong> Light travels faster than electrons through copper, reducing latency in signal transmission.</li>
-  <li>📦 <strong>Compact & Scalable:</strong> As component sizes shrink, more logic units can be embedded in smaller spaces without overheating.</li>
+  <li><strong>Ultra-Low Power:</strong>  consume significantly less energy than transistors, especially when pulsed.</li>
+  <li><strong>Minimal Heat:</strong> Optical systems generate negligible heat, eliminating the need for complex cooling mechanisms.</li>
+  <li><strong>High Parallelism:</strong> Light-based units can operate in massive parallel arrays, outperforming traditional architectures in scale.</li>
+  <li><strong>Faster Propagation:</strong> Light travels faster than electrons through copper, reducing latency in signal transmission.</li>
+  <li><strong>Compact & Scalable:</strong> As component sizes shrink, more logic units can be embedded in smaller spaces without overheating.</li>
 </ul>
 
 
 
-      <h2>🚀 Impact</h2>
+      <h2>Impact</h2>
 <ul>
   <li>
     <strong>Large Language Models:</strong><br>
     Training models like GPT currently takes 3–4 months on A100 GPUs with enormous power draw, heat, and cooling requirements.
-    Our optical GPU architecture could reduce training time to days or even hours, using near-zero electricity and producing no heat — making AI truly accessible.
+    Our optical GPU architecture could reduce training time to days or even hours, using less electricity and producing no heat — making AI truly accessible.
   </li>
   <li>
     <strong>Gaming & Graphics:</strong><br>
@@ -151,7 +226,7 @@
 
     <h2>📨 Contact</h2>
     <p>
-      Want to collaborate, invest, or learn more? Reach out at <a href="mailto:your-email@example.com">yashpadale108@example.com</a>
+      Want to collaborate, invest, or learn more? Reach out at <a href="mailto:your-email@example.com">yashpadale108@gmail.com</a>
     </p>
   </section>
 
