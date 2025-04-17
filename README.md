@@ -1,4 +1,3 @@
-# Last Light Labs
 
 *Reimagining computation through light and parallelism*
 
